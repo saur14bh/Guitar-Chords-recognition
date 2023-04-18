@@ -4,7 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - appnope=0.1.0
   - attrs=19.3.0
   - audioread=2.1.8
   - backcall=0.1.0
@@ -13,17 +12,13 @@ dependencies:
   - ca-certificates=2020.4.5.1
   - certifi=2020.4.5.1
   - cycler=0.10.0
-  - dbus=1.13.6
   - decorator=4.4.2
   - defusedxml=0.6.0
   - entrypoints=0.3
-  - expat=2.2.6
   - ffmpeg=4.2
   - freetype=2.10.1
   - gettext=0.19.8.1
   - glib=2.58.3
-  - gmp=6.1.2
-  - gnutls=3.6.5
   - icu=64.2
   - importlib-metadata=1.6.0
   - importlib_metadata=1.6.0
@@ -44,10 +39,7 @@ dependencies:
   - kiwisolver=1.1.0
   - lame=3.100
   - libcxx>=4.0.1
-  - libcxxabi>=4.0.1
-  - libedit=3.1.20181209
   - libffi=3.2.1
-  - libgfortran<=3.0.1
   - libiconv=1.15
   - libpng=1.6.37
   - librosa=0.6.1
@@ -63,13 +55,10 @@ dependencies:
   - mkl_fft=1.0.15
   - mkl_random=1.1.0
   - nbconvert=5.6.1
-  - ncurses=6.2
-  - nettle=3.4.1
   - notebook=6.0.3
   - numba=0.48.0
   - numpy=1.18.1
   - numpy-base=1.18.1
-  - openh264=1.8.0
   - openssl=1.1.1f
   - pandas=1.0.3
   - pandoc=2.9.2
@@ -95,7 +84,6 @@ dependencies:
   - qt=5.9.7
   - qtconsole=4.7.2
   - qtpy=1.9.0
-  - readline=8.0
   - resampy=0.2.2
   - scikit-learn=0.22.1
   - scipy=1.4.1
@@ -112,7 +100,6 @@ dependencies:
   - webencodings=0.5.1
   - wheel=0.34.2
   - widgetsnbextension=3.5.1
-  - x264=1!152.20180806
   - xz=5.2.4
   - zeromq=4.3.2
   - zipp=3.1.0
