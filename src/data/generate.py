@@ -32,7 +32,7 @@ def run():
     data_df_processed.to_csv(os.path.join(METADATA_DIR_PROCESSED, 'data.csv'), index=False)
     data_df_processed.to_pickle(os.path.join(METADATA_DIR_PROCESSED, 'data.pkl'))
 
-    logger.info("Processed Metadata saved to"+METADATA_DIR_PROCESSED)
+    logger.info("Processed metadata saved to"+METADATA_DIR_PROCESSED)
     logger.info(get_count(data_df_processed))
 
 if  __name__ =='__main__':
